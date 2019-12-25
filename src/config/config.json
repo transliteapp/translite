@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "john",
+    "password": "john1991",
+    "database": "translit",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "john",
+    "password": "john1991",
+    "database": "translit",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "john",
+    "password": "john1991",
+    "database": "translit",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
