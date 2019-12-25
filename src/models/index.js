@@ -9,7 +9,9 @@ const db = {};
 
  let sequelize;
   // sequelize = new Sequelize(config.database, config.username, config.password, config);
-  sequelize = new Sequelize(process.env.DATABASE_URL, {
+  const conUrl = `postgresql://doadmin:kw27ol8ptk43mxeo@translite-cluster1-do-user-6909055-0.db.ondigitalocean.com:25060/defaultdb?sslmode=require`;
+  // process.env.DATABASE_URL
+  sequelize = new Sequelize(conUrl, {
     dialect: 'postgres',
     protocol: 'postgres',
     dialectOptions: {

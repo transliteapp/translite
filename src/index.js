@@ -151,7 +151,7 @@ models.sequelize.authenticate().then(() => {
 });
 
 // models.sequelize.sync({force: true}).then(() => {
-//   httpServer.listen({ port: process.env.PORT || 7800 }, () => { 
+//   httpServer.listen({ port: process.env.PORT || 7500 }, () => { 
 //     console.log(`🚀 Server ready at`);
 //     console.log(`🚀 Subscriptions ready at ws://localhost:7000${server.subscriptionsPath}`);
 //   });
